@@ -1,6 +1,8 @@
 package strategy;
 
 public class Character {
+
+    // design pattern시에 무조건 private으로 해라
     private AttackStrategy attackStrategy;
 
     public void setAttackStrategy(AttackStrategy attackStrategy) {
