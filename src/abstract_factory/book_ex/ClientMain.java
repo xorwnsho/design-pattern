@@ -1,8 +1,8 @@
-package abstract_factory.bookEx;
+package abstract_factory.book_ex;
 
-import abstract_factory.bookEx.factory.Factory;
-import abstract_factory.bookEx.factory.KoreaFactory;
-import abstract_factory.bookEx.factory.StateFactory;
+import abstract_factory.book_ex.factory.Factory;
+import abstract_factory.book_ex.factory.KoreaFactory;
+import abstract_factory.book_ex.factory.StateFactory;
 
 public class ClientMain {
     public static void main(String[] args) {

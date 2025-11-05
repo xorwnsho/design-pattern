@@ -1,4 +1,4 @@
-package abstract_factory.bookEx.door;
+package abstract_factory.book_ex.door;
 
 public class StateDoorProduct extends DoorProduct{
 
