@@ -1,4 +1,4 @@
-package abstract_factory.tire;
+package abstract_factory.bookEx.tire;
 
 public class StateTireProduct extends TireProduct {
 

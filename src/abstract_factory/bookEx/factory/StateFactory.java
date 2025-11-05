@@ -1,9 +1,9 @@
-package abstract_factory.factory;
+package abstract_factory.bookEx.factory;
 
-import abstract_factory.door.DoorProduct;
-import abstract_factory.door.StateDoorProduct;
-import abstract_factory.tire.StateTireProduct;
-import abstract_factory.tire.TireProduct;
+import abstract_factory.bookEx.door.DoorProduct;
+import abstract_factory.bookEx.door.StateDoorProduct;
+import abstract_factory.bookEx.tire.StateTireProduct;
+import abstract_factory.bookEx.tire.TireProduct;
 
 public class StateFactory extends Factory {
 
