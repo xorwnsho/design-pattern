@@ -7,10 +7,8 @@ import observer.push.WeatherData;
 public class ForecastDisplay implements Observer, DisplayElement {
     private float currentPressure = 29.92f;  // 초기 기준 기압
     private float lastPressure;
-    private WeatherData weatherData;
 
     public ForecastDisplay(WeatherData weatherData) {
-        this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
 

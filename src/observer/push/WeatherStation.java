@@ -9,7 +9,6 @@ public class WeatherStation {
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData);
-
         StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
         ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 

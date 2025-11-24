@@ -9,10 +9,8 @@ public class StatisticsDisplay implements Observer, DisplayElement {
     private float minTemp = 200f; // 처음에 갱신되기 쉽게 높은 값으로 초기화
     private float tempSum = 0.0f;
     private int numReadings = 0;  // 측정 횟수
-    private WeatherData weatherData;
 
     public StatisticsDisplay(WeatherData weatherData) {
-        this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
 
