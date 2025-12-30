@@ -13,12 +13,10 @@ public class Main {
 //        Event event = new BlackFridayEvent();
 //        Event event = new SummerEvent();
         Event event = new NoEvent();
-
         Member oh = new Member("ohjuntaek", Grade.NORMAL);
+        int myProduct = 100_000;
 
         OrderProcessor processor = new OrderProcessor(event, oh);
-        
-        int myProduct = 100_000;
         processor.processOrder(myProduct);
     }
 }
