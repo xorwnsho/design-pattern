@@ -1,5 +1,5 @@
 package project.ship;
 
 public interface Ship {
-    void shipPrice(int discountedPrice);
+    int calculateFinalPrice(int discountedPrice);
 }

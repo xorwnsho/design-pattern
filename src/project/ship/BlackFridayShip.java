@@ -6,7 +6,7 @@ public class BlackFridayShip implements Ship {
 
 
     @Override
-    public void shipPrice(int discountedPrice) {
-        OneHundredThousandShip(discountedPrice);
+    public int calculateFinalPrice(int discountedPrice) {
+        return OneHundredThousandShip(discountedPrice);
     }
 }

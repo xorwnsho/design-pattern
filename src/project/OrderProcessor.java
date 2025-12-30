@@ -18,8 +18,8 @@ public class OrderProcessor {
         Sale sale = event.createSale(member);
         Ship ship = event.createShip(member);
 
-        int discountedPrice = sale.sale(myProduct);
-        ship.shipPrice(discountedPrice);
+        int discountedPrice = sale.calculateDiscountedPrice(myProduct);
+        ship.calculateFinalPrice(discountedPrice);
 
     }
 }
